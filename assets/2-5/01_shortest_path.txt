@@ -1,0 +1,42 @@
+graph {
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="1,0.1!"]
+	C [pos="0,-1!"]
+	D [pos="1.2,-1.1!"]
+	E [pos="2,0.1!"]
+	F [pos="2.3,-0.9!"]
+	G [pos="3.2,-0.2!"]
+	A -- B [label=2]
+	A -- C [label=5]
+	B -- C [label=4]
+	B -- D [label=6]
+	B -- E [label=10]
+	C -- D [label=2]
+	D -- F [label=1]
+	E -- F [label=3]
+	E -- G [label=5]
+	F -- G [label=9]
+}
+
+graph {
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="1,0.1!"]
+	C [pos="0,-1!"]
+	D [pos="1.2,-1.1!"]
+	E [pos="2,0.1!"]
+	F [pos="2.3,-0.9!"]
+	G [pos="3.2,-0.2!"]
+	A -- B [label=2]
+	A -- C [label=5 color=red style=bold]
+	B -- C [label=4]
+	B -- D [label=6]
+	B -- E [label=10]
+	C -- D [label=2 color=red style=bold]
+	D -- F [label=1 color=red style=bold]
+	E -- F [label=3 color=red style=bold]
+	E -- G [label=5 color=red style=bold]
+	F -- G [label=9]
+}
+

@@ -1,0 +1,916 @@
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	0 -> 0 [label=0 arrowhead=open color="#ea5f2a"]
+	0 -> 0 [label=0 arrowhead=open color="#51ad70"]
+	0 -> 0 [label=0 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	0 -> 1 [label=5 arrowhead=open color="#ea5f2a"]
+	0 -> 0 [label=0 arrowhead=open color="#51ad70"]
+	0 -> 1 [label=5 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	0 -> 2 [label=3 arrowhead=open color="#ea5f2a"]
+	0 -> 0 [label=0 arrowhead=open color="#51ad70"]
+	0 -> 2 [label=3 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	0 -> 3 [label=8 arrowhead=open color="#ea5f2a"]
+	0 -> 0 [label=0 arrowhead=open color="#51ad70"]
+	0 -> 3 [label=8 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	1 -> 0 [label=5 arrowhead=open color="#ea5f2a"]
+	1 -> 0 [label=5 arrowhead=open color="#51ad70"]
+	0 -> 0 [label=0 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	1 -> 1 [label=0 arrowhead=open color="#ea5f2a"]
+	1 -> 0 [label=5 arrowhead=open color="#51ad70"]
+	0 -> 1 [label=5 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 3 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	1 -> 2 [label=8 arrowhead=open color="#ea5f2a"]
+	1 -> 0 [label=5 arrowhead=open color="#51ad70"]
+	0 -> 2 [label=3 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 2 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	1 -> 3 [label=2 arrowhead=open color="#ea5f2a"]
+	1 -> 0 [label=5 arrowhead=open color="#51ad70"]
+	0 -> 3 [label=8 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	2 -> 0 [label=3 arrowhead=open color="#ea5f2a"]
+	2 -> 0 [label=3 arrowhead=open color="#51ad70"]
+	0 -> 0 [label=0 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 3 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	2 -> 1 [label=8 arrowhead=open color="#ea5f2a"]
+	2 -> 0 [label=3 arrowhead=open color="#51ad70"]
+	0 -> 1 [label=5 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	2 -> 2 [label=0 arrowhead=open color="#ea5f2a"]
+	2 -> 0 [label=3 arrowhead=open color="#51ad70"]
+	0 -> 2 [label=3 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [label=11 arrowhead=open color="#ea5f2a"]
+	2 -> 0 [label=3 arrowhead=open color="#51ad70"]
+	0 -> 3 [label=8 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	3 -> 0 [label=8 arrowhead=open color="#ea5f2a"]
+	3 -> 0 [label=8 arrowhead=open color="#51ad70"]
+	0 -> 0 [label=0 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 2 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	3 -> 1 [label=2 arrowhead=open color="#ea5f2a"]
+	3 -> 0 [label=8 arrowhead=open color="#51ad70"]
+	0 -> 1 [label=5 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	3 -> 2 [label=11 arrowhead=open color="#ea5f2a"]
+	3 -> 0 [label=8 arrowhead=open color="#51ad70"]
+	0 -> 2 [label=3 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	3 -> 3 [label=0 arrowhead=open color="#ea5f2a"]
+	3 -> 0 [label=8 arrowhead=open color="#51ad70"]
+	0 -> 3 [label=8 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	0 -> 0 [label=0 arrowhead=open color="#ea5f2a"]
+	0 -> 1 [label=5 arrowhead=open color="#51ad70"]
+	1 -> 0 [label=5 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	0 -> 1 [label=5 arrowhead=open color="#ea5f2a"]
+	0 -> 1 [label=5 arrowhead=open color="#51ad70"]
+	1 -> 1 [label=0 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 3 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	0 -> 2 [label=3 arrowhead=open color="#ea5f2a"]
+	0 -> 1 [label=5 arrowhead=open color="#51ad70"]
+	1 -> 2 [label=8 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 2 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	0 -> 3 [label=7 arrowhead=open color="#ea5f2a"]
+	0 -> 1 [label=5 arrowhead=open color="#51ad70"]
+	1 -> 3 [label=2 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	1 -> 0 [label=5 arrowhead=open color="#ea5f2a"]
+	1 -> 1 [label=0 arrowhead=open color="#51ad70"]
+	1 -> 0 [label=5 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	1 -> 1 [label=0 arrowhead=open color="#ea5f2a"]
+	1 -> 1 [label=0 arrowhead=open color="#51ad70"]
+	1 -> 1 [label=0 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	1 -> 2 [label=8 arrowhead=open color="#ea5f2a"]
+	1 -> 1 [label=0 arrowhead=open color="#51ad70"]
+	1 -> 2 [label=8 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	1 -> 3 [label=2 arrowhead=open color="#ea5f2a"]
+	1 -> 1 [label=0 arrowhead=open color="#51ad70"]
+	1 -> 3 [label=2 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 3 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	2 -> 0 [label=3 arrowhead=open color="#ea5f2a"]
+	2 -> 1 [label=8 arrowhead=open color="#51ad70"]
+	1 -> 0 [label=5 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	2 -> 1 [label=8 arrowhead=open color="#ea5f2a"]
+	2 -> 1 [label=8 arrowhead=open color="#51ad70"]
+	1 -> 1 [label=0 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	2 -> 2 [label=0 arrowhead=open color="#ea5f2a"]
+	2 -> 1 [label=8 arrowhead=open color="#51ad70"]
+	1 -> 2 [label=8 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	2 -> 3 [label=10 arrowhead=open color="#ea5f2a"]
+	2 -> 1 [label=8 arrowhead=open color="#51ad70"]
+	1 -> 3 [label=2 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 2 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	3 -> 0 [label=7 arrowhead=open color="#ea5f2a"]
+	3 -> 1 [label=2 arrowhead=open color="#51ad70"]
+	1 -> 0 [label=5 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	3 -> 1 [label=2 arrowhead=open color="#ea5f2a"]
+	3 -> 1 [label=2 arrowhead=open color="#51ad70"]
+	1 -> 1 [label=0 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	3 -> 2 [label=10 arrowhead=open color="#ea5f2a"]
+	3 -> 1 [label=2 arrowhead=open color="#51ad70"]
+	1 -> 2 [label=8 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	3 -> 3 [label=0 arrowhead=open color="#ea5f2a"]
+	3 -> 1 [label=2 arrowhead=open color="#51ad70"]
+	1 -> 3 [label=2 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	0 -> 0 [label=0 arrowhead=open color="#ea5f2a"]
+	0 -> 2 [label=3 arrowhead=open color="#51ad70"]
+	2 -> 0 [label=3 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 3 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	0 -> 1 [label=5 arrowhead=open color="#ea5f2a"]
+	0 -> 2 [label=3 arrowhead=open color="#51ad70"]
+	2 -> 1 [label=8 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	0 -> 2 [label=3 arrowhead=open color="#ea5f2a"]
+	0 -> 2 [label=3 arrowhead=open color="#51ad70"]
+	2 -> 2 [label=0 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	0 -> 3 [label=7 arrowhead=open color="#ea5f2a"]
+	0 -> 2 [label=3 arrowhead=open color="#51ad70"]
+	2 -> 3 [label=10 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 3 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	1 -> 0 [label=5 arrowhead=open color="#ea5f2a"]
+	1 -> 2 [label=8 arrowhead=open color="#51ad70"]
+	2 -> 0 [label=3 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	1 -> 1 [label=0 arrowhead=open color="#ea5f2a"]
+	1 -> 2 [label=8 arrowhead=open color="#51ad70"]
+	2 -> 1 [label=8 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	1 -> 2 [label=8 arrowhead=open color="#ea5f2a"]
+	1 -> 2 [label=8 arrowhead=open color="#51ad70"]
+	2 -> 2 [label=0 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 3 [label=2 arrowhead=open color="#ea5f2a"]
+	1 -> 2 [label=8 arrowhead=open color="#51ad70"]
+	2 -> 3 [label=10 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	2 -> 0 [label=3 arrowhead=open color="#ea5f2a"]
+	2 -> 2 [label=0 arrowhead=open color="#51ad70"]
+	2 -> 0 [label=3 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	2 -> 1 [label=8 arrowhead=open color="#ea5f2a"]
+	2 -> 2 [label=0 arrowhead=open color="#51ad70"]
+	2 -> 1 [label=8 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	2 -> 2 [label=0 arrowhead=open color="#ea5f2a"]
+	2 -> 2 [label=0 arrowhead=open color="#51ad70"]
+	2 -> 2 [label=0 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [label=10 arrowhead=open color="#ea5f2a"]
+	2 -> 2 [label=0 arrowhead=open color="#51ad70"]
+	2 -> 3 [label=10 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	3 -> 0 [label=7 arrowhead=open color="#ea5f2a"]
+	3 -> 2 [label=10 arrowhead=open color="#51ad70"]
+	2 -> 0 [label=3 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	3 -> 1 [label=2 arrowhead=open color="#ea5f2a"]
+	3 -> 2 [label=10 arrowhead=open color="#51ad70"]
+	2 -> 1 [label=8 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	3 -> 2 [label=10 arrowhead=open color="#ea5f2a"]
+	3 -> 2 [label=10 arrowhead=open color="#51ad70"]
+	2 -> 2 [label=0 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	3 -> 3 [label=0 arrowhead=open color="#ea5f2a"]
+	3 -> 2 [label=10 arrowhead=open color="#51ad70"]
+	2 -> 3 [label=10 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	0 -> 0 [label=0 arrowhead=open color="#ea5f2a"]
+	0 -> 3 [label=7 arrowhead=open color="#51ad70"]
+	3 -> 0 [label=7 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 2 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	0 -> 1 [label=5 arrowhead=open color="#ea5f2a"]
+	0 -> 3 [label=7 arrowhead=open color="#51ad70"]
+	3 -> 1 [label=2 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	0 -> 2 [label=3 arrowhead=open color="#ea5f2a"]
+	0 -> 3 [label=7 arrowhead=open color="#51ad70"]
+	3 -> 2 [label=10 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	0 -> 3 [label=7 arrowhead=open color="#ea5f2a"]
+	0 -> 3 [label=7 arrowhead=open color="#51ad70"]
+	3 -> 3 [label=0 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 2 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	1 -> 0 [label=5 arrowhead=open color="#ea5f2a"]
+	1 -> 3 [label=2 arrowhead=open color="#51ad70"]
+	3 -> 0 [label=7 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	1 -> 1 [label=0 arrowhead=open color="#ea5f2a"]
+	1 -> 3 [label=2 arrowhead=open color="#51ad70"]
+	3 -> 1 [label=2 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [label=8 arrowhead=open color="#ea5f2a"]
+	1 -> 3 [label=2 arrowhead=open color="#51ad70"]
+	3 -> 2 [label=10 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	1 -> 3 [label=2 arrowhead=open color="#ea5f2a"]
+	1 -> 3 [label=2 arrowhead=open color="#51ad70"]
+	3 -> 3 [label=0 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 0 [label=3 arrowhead=open color="#ea5f2a"]
+	2 -> 3 [label=10 arrowhead=open color="#51ad70"]
+	3 -> 0 [label=7 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	2 -> 1 [label=8 arrowhead=open color="#ea5f2a"]
+	2 -> 3 [label=10 arrowhead=open color="#51ad70"]
+	3 -> 1 [label=2 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 2 [label=0 arrowhead=open color="#ea5f2a"]
+	2 -> 3 [label=10 arrowhead=open color="#51ad70"]
+	3 -> 2 [label=10 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [label=10 arrowhead=open color="#ea5f2a"]
+	2 -> 3 [label=10 arrowhead=open color="#51ad70"]
+	3 -> 3 [label=0 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	3 -> 0 [label=7 arrowhead=open color="#ea5f2a"]
+	3 -> 3 [label=0 arrowhead=open color="#51ad70"]
+	3 -> 0 [label=7 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	3 -> 1 [label=2 arrowhead=open color="#ea5f2a"]
+	3 -> 3 [label=0 arrowhead=open color="#51ad70"]
+	3 -> 1 [label=2 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	3 -> 2 [label=10 arrowhead=open color="#ea5f2a"]
+	3 -> 3 [label=0 arrowhead=open color="#51ad70"]
+	3 -> 2 [label=10 arrowhead=open color="#2254f0"]
+}
+
+digraph {
+	0 [pos="0,0!"]
+	1 [pos="-2,0!"]
+	2 [pos="-2,-2!"]
+	3 [pos="0,-2!"]
+	0 -> 1 [arrowhead=none]
+	0 -> 2 [arrowhead=none]
+	0 -> 3 [arrowhead=none]
+	1 -> 2 [arrowhead=none]
+	1 -> 3 [arrowhead=none]
+	2 -> 3 [arrowhead=none]
+	3 -> 3 [label=0 arrowhead=open color="#ea5f2a"]
+	3 -> 3 [label=0 arrowhead=open color="#51ad70"]
+	3 -> 3 [label=0 arrowhead=open color="#2254f0"]
+}
+

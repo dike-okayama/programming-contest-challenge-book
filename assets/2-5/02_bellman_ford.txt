@@ -1,0 +1,414 @@
+strict digraph {
+	node [height=1 shape=circle width=1]
+	A [pos="0,0!"]
+	B [pos="2,0.1!"]
+	C [pos="0,-2!"]
+	D [pos="2.2,-2.1!"]
+	E [pos="4,0.1!"]
+	F [pos="4.5,-1.8!"]
+	G [pos="6.2,-0.2!"]
+	A [label="A
+d=0"]
+	B [label="B
+d=inf"]
+	C [label="C
+d=inf"]
+	D [label="D
+d=inf"]
+	A -> B [label=1 arrowhead=none]
+	B -> C [label=1 arrowhead=none]
+	C -> D [label=1 arrowhead=none]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	A [pos="0,0!"]
+	B [pos="2,0.1!"]
+	C [pos="0,-2!"]
+	D [pos="2.2,-2.1!"]
+	E [pos="4,0.1!"]
+	F [pos="4.5,-1.8!"]
+	G [pos="6.2,-0.2!"]
+	A -> B [label=1 arrowhead=open color=red]
+	A [label="A(from)
+d=0
+" color=red height=1.1 width=1.1]
+	B [label="B(to)
+d=1
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=1"]
+	C [label="C
+d=inf"]
+	D [label="D
+d=inf"]
+	B -> C [label=1 arrowhead=none]
+	C -> D [label=1 arrowhead=none]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	A [pos="0,0!"]
+	B [pos="2,0.1!"]
+	C [pos="0,-2!"]
+	D [pos="2.2,-2.1!"]
+	E [pos="4,0.1!"]
+	F [pos="4.5,-1.8!"]
+	G [pos="6.2,-0.2!"]
+	B -> C [label=1 arrowhead=open color=red]
+	B [label="B(from)
+d=1
+" color=red height=1.1 width=1.1]
+	C [label="C(to)
+d=2
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=1"]
+	C [label="C
+d=2"]
+	D [label="D
+d=inf"]
+	A -> B [label=1 arrowhead=none]
+	C -> D [label=1 arrowhead=none]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	A [pos="0,0!"]
+	B [pos="2,0.1!"]
+	C [pos="0,-2!"]
+	D [pos="2.2,-2.1!"]
+	E [pos="4,0.1!"]
+	F [pos="4.5,-1.8!"]
+	G [pos="6.2,-0.2!"]
+	C -> D [label=1 arrowhead=open color=red]
+	C [label="C(from)
+d=2
+" color=red height=1.1 width=1.1]
+	D [label="D(to)
+d=3
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=1"]
+	C [label="C
+d=2"]
+	D [label="D
+d=3"]
+	A -> B [label=1 arrowhead=none]
+	B -> C [label=1 arrowhead=none]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	A [pos="0,0!"]
+	B [pos="2,0.1!"]
+	C [pos="0,-2!"]
+	D [pos="2.2,-2.1!"]
+	E [pos="4,0.1!"]
+	F [pos="4.5,-1.8!"]
+	G [pos="6.2,-0.2!"]
+	C -> B [label=-100 arrowhead=open color=red]
+	C [label="C(from)
+d=2
+" color=red height=1.1 width=1.1]
+	B [label="B(to)
+d=-98
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-98"]
+	C [label="C
+d=2"]
+	D [label="D
+d=3"]
+	A -> B [label=1 arrowhead=none]
+	C -> D [label=1 arrowhead=none]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	A [pos="0,0!"]
+	B [pos="2,0.1!"]
+	C [pos="0,-2!"]
+	D [pos="2.2,-2.1!"]
+	E [pos="4,0.1!"]
+	F [pos="4.5,-1.8!"]
+	G [pos="6.2,-0.2!"]
+	A -> B [label=1 arrowhead=open color=red]
+	A [label="A(from)
+d=0
+" color=red height=1.1 width=1.1]
+	B [label="B(to)
+d=-98
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-98"]
+	C [label="C
+d=2"]
+	D [label="D
+d=3"]
+	B -> C [label=1 arrowhead=none]
+	C -> D [label=1 arrowhead=none]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	A [pos="0,0!"]
+	B [pos="2,0.1!"]
+	C [pos="0,-2!"]
+	D [pos="2.2,-2.1!"]
+	E [pos="4,0.1!"]
+	F [pos="4.5,-1.8!"]
+	G [pos="6.2,-0.2!"]
+	B -> C [label=1 arrowhead=open color=red]
+	B [label="B(from)
+d=-98
+" color=red height=1.1 width=1.1]
+	C [label="C(to)
+d=-97
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-98"]
+	C [label="C
+d=-97"]
+	D [label="D
+d=3"]
+	A -> B [label=1 arrowhead=none]
+	C -> D [label=1 arrowhead=none]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	A [pos="0,0!"]
+	B [pos="2,0.1!"]
+	C [pos="0,-2!"]
+	D [pos="2.2,-2.1!"]
+	E [pos="4,0.1!"]
+	F [pos="4.5,-1.8!"]
+	G [pos="6.2,-0.2!"]
+	C -> D [label=1 arrowhead=open color=red]
+	C [label="C(from)
+d=-97
+" color=red height=1.1 width=1.1]
+	D [label="D(to)
+d=-96
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-98"]
+	C [label="C
+d=-97"]
+	D [label="D
+d=-96"]
+	A -> B [label=1 arrowhead=none]
+	B -> C [label=1 arrowhead=none]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	A [pos="0,0!"]
+	B [pos="2,0.1!"]
+	C [pos="0,-2!"]
+	D [pos="2.2,-2.1!"]
+	E [pos="4,0.1!"]
+	F [pos="4.5,-1.8!"]
+	G [pos="6.2,-0.2!"]
+	C -> B [label=-100 arrowhead=open color=red]
+	C [label="C(from)
+d=-97
+" color=red height=1.1 width=1.1]
+	B [label="B(to)
+d=-197
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-197"]
+	C [label="C
+d=-97"]
+	D [label="D
+d=-96"]
+	A -> B [label=1 arrowhead=none]
+	C -> D [label=1 arrowhead=none]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	A [pos="0,0!"]
+	B [pos="2,0.1!"]
+	C [pos="0,-2!"]
+	D [pos="2.2,-2.1!"]
+	E [pos="4,0.1!"]
+	F [pos="4.5,-1.8!"]
+	G [pos="6.2,-0.2!"]
+	A -> B [label=1 arrowhead=open color=red]
+	A [label="A(from)
+d=0
+" color=red height=1.1 width=1.1]
+	B [label="B(to)
+d=-197
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-197"]
+	C [label="C
+d=-97"]
+	D [label="D
+d=-96"]
+	B -> C [label=1 arrowhead=none]
+	C -> D [label=1 arrowhead=none]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	A [pos="0,0!"]
+	B [pos="2,0.1!"]
+	C [pos="0,-2!"]
+	D [pos="2.2,-2.1!"]
+	E [pos="4,0.1!"]
+	F [pos="4.5,-1.8!"]
+	G [pos="6.2,-0.2!"]
+	B -> C [label=1 arrowhead=open color=red]
+	B [label="B(from)
+d=-197
+" color=red height=1.1 width=1.1]
+	C [label="C(to)
+d=-196
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-197"]
+	C [label="C
+d=-196"]
+	D [label="D
+d=-96"]
+	A -> B [label=1 arrowhead=none]
+	C -> D [label=1 arrowhead=none]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	A [pos="0,0!"]
+	B [pos="2,0.1!"]
+	C [pos="0,-2!"]
+	D [pos="2.2,-2.1!"]
+	E [pos="4,0.1!"]
+	F [pos="4.5,-1.8!"]
+	G [pos="6.2,-0.2!"]
+	C -> D [label=1 arrowhead=open color=red]
+	C [label="C(from)
+d=-196
+" color=red height=1.1 width=1.1]
+	D [label="D(to)
+d=-195
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-197"]
+	C [label="C
+d=-196"]
+	D [label="D
+d=-195"]
+	A -> B [label=1 arrowhead=none]
+	B -> C [label=1 arrowhead=none]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	A [pos="0,0!"]
+	B [pos="2,0.1!"]
+	C [pos="0,-2!"]
+	D [pos="2.2,-2.1!"]
+	E [pos="4,0.1!"]
+	F [pos="4.5,-1.8!"]
+	G [pos="6.2,-0.2!"]
+	C -> B [label=-100 arrowhead=open color=red]
+	C [label="C(from)
+d=-196
+" color=red height=1.1 width=1.1]
+	B [label="B(to)
+d=-296
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-296"]
+	C [label="C
+d=-196"]
+	D [label="D
+d=-195"]
+	A -> B [label=1 arrowhead=none]
+	C -> D [label=1 arrowhead=none]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	A [pos="0,0!"]
+	B [pos="2,0.1!"]
+	C [pos="0,-2!"]
+	D [pos="2.2,-2.1!"]
+	E [pos="4,0.1!"]
+	F [pos="4.5,-1.8!"]
+	G [pos="6.2,-0.2!"]
+	A -> B [label=1 arrowhead=open color=red]
+	A [label="A(from)
+d=0
+" color=red height=1.1 width=1.1]
+	B [label="B(to)
+d=-296
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-296"]
+	C [label="C
+d=-196"]
+	D [label="D
+d=-195"]
+	B -> C [label=1 arrowhead=none]
+	C -> D [label=1 arrowhead=none]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	A [pos="0,0!"]
+	B [pos="2,0.1!"]
+	C [pos="0,-2!"]
+	D [pos="2.2,-2.1!"]
+	E [pos="4,0.1!"]
+	F [pos="4.5,-1.8!"]
+	G [pos="6.2,-0.2!"]
+	B -> C [label=1 arrowhead=open color=red]
+	B [label="B(from)
+d=-296
+" color=red height=1.1 width=1.1]
+	C [label="C(to)
+d=-196
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-296"]
+	C [label="C
+d=-196"]
+	D [label="D
+d=-195"]
+	A -> B [label=1 arrowhead=none]
+	C -> D [label=1 arrowhead=none]
+}
+

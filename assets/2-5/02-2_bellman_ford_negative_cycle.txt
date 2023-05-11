@@ -1,0 +1,729 @@
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	A [label="A
+d=0"]
+	B [label="B
+d=0"]
+	C [label="C
+d=0"]
+	D [label="D
+d=0"]
+	E [label="E
+d=0"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	A -> B [color=red]
+	A [label="A(from)
+d=0
+" color=red height=1.1 width=1.1]
+	B [label="B(to)
+d=0
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=0"]
+	C [label="C
+d=0"]
+	D [label="D
+d=0"]
+	E [label="E
+d=0"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	B -> C [color=red]
+	B [label="B(from)
+d=0
+" color=red height=1.1 width=1.1]
+	C [label="C(to)
+d=0
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=0"]
+	C [label="C
+d=0"]
+	D [label="D
+d=0"]
+	E [label="E
+d=0"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	C -> D [color=red]
+	C [label="C(from)
+d=0
+" color=red height=1.1 width=1.1]
+	D [label="D(to)
+d=-1
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=0"]
+	C [label="C
+d=0"]
+	D [label="D
+d=-1"]
+	E [label="E
+d=0"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	D -> B [color=red]
+	D [label="D(from)
+d=-1
+" color=red height=1.1 width=1.1]
+	B [label="B(to)
+d=-2
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-2"]
+	C [label="C
+d=0"]
+	D [label="D
+d=-1"]
+	E [label="E
+d=0"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	C -> E [color=red]
+	C [label="C(from)
+d=0
+" color=red height=1.1 width=1.1]
+	E [label="E(to)
+d=0
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-2"]
+	C [label="C
+d=0"]
+	D [label="D
+d=-1"]
+	E [label="E
+d=0"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	A -> B [color=red]
+	A [label="A(from)
+d=0
+" color=red height=1.1 width=1.1]
+	B [label="B(to)
+d=-2
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-2"]
+	C [label="C
+d=0"]
+	D [label="D
+d=-1"]
+	E [label="E
+d=0"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	B -> C [color=red]
+	B [label="B(from)
+d=-2
+" color=red height=1.1 width=1.1]
+	C [label="C(to)
+d=-1
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-2"]
+	C [label="C
+d=-1"]
+	D [label="D
+d=-1"]
+	E [label="E
+d=0"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	C -> D [color=red]
+	C [label="C(from)
+d=-1
+" color=red height=1.1 width=1.1]
+	D [label="D(to)
+d=-2
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-2"]
+	C [label="C
+d=-1"]
+	D [label="D
+d=-2"]
+	E [label="E
+d=0"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	D -> B [color=red]
+	D [label="D(from)
+d=-2
+" color=red height=1.1 width=1.1]
+	B [label="B(to)
+d=-3
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-3"]
+	C [label="C
+d=-1"]
+	D [label="D
+d=-2"]
+	E [label="E
+d=0"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	C -> E [color=red]
+	C [label="C(from)
+d=-1
+" color=red height=1.1 width=1.1]
+	E [label="E(to)
+d=0
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-3"]
+	C [label="C
+d=-1"]
+	D [label="D
+d=-2"]
+	E [label="E
+d=0"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	A -> B [color=red]
+	A [label="A(from)
+d=0
+" color=red height=1.1 width=1.1]
+	B [label="B(to)
+d=-3
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-3"]
+	C [label="C
+d=-1"]
+	D [label="D
+d=-2"]
+	E [label="E
+d=0"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	B -> C [color=red]
+	B [label="B(from)
+d=-3
+" color=red height=1.1 width=1.1]
+	C [label="C(to)
+d=-2
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-3"]
+	C [label="C
+d=-2"]
+	D [label="D
+d=-2"]
+	E [label="E
+d=0"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	C -> D [color=red]
+	C [label="C(from)
+d=-2
+" color=red height=1.1 width=1.1]
+	D [label="D(to)
+d=-3
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-3"]
+	C [label="C
+d=-2"]
+	D [label="D
+d=-3"]
+	E [label="E
+d=0"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	D -> B [color=red]
+	D [label="D(from)
+d=-3
+" color=red height=1.1 width=1.1]
+	B [label="B(to)
+d=-4
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-4"]
+	C [label="C
+d=-2"]
+	D [label="D
+d=-3"]
+	E [label="E
+d=0"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	C -> E [color=red]
+	C [label="C(from)
+d=-2
+" color=red height=1.1 width=1.1]
+	E [label="E(to)
+d=-1
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-4"]
+	C [label="C
+d=-2"]
+	D [label="D
+d=-3"]
+	E [label="E
+d=-1"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	A -> B [color=red]
+	A [label="A(from)
+d=0
+" color=red height=1.1 width=1.1]
+	B [label="B(to)
+d=-4
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-4"]
+	C [label="C
+d=-2"]
+	D [label="D
+d=-3"]
+	E [label="E
+d=-1"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	B -> C [color=red]
+	B [label="B(from)
+d=-4
+" color=red height=1.1 width=1.1]
+	C [label="C(to)
+d=-3
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-4"]
+	C [label="C
+d=-3"]
+	D [label="D
+d=-3"]
+	E [label="E
+d=-1"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	C -> D [color=red]
+	C [label="C(from)
+d=-3
+" color=red height=1.1 width=1.1]
+	D [label="D(to)
+d=-4
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-4"]
+	C [label="C
+d=-3"]
+	D [label="D
+d=-4"]
+	E [label="E
+d=-1"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	D -> B [color=red]
+	D [label="D(from)
+d=-4
+" color=red height=1.1 width=1.1]
+	B [label="B(to)
+d=-5
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-5"]
+	C [label="C
+d=-3"]
+	D [label="D
+d=-4"]
+	E [label="E
+d=-1"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	C -> E [color=red]
+	C [label="C(from)
+d=-3
+" color=red height=1.1 width=1.1]
+	E [label="E(to)
+d=-2
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-5"]
+	C [label="C
+d=-3"]
+	D [label="D
+d=-4"]
+	E [label="E
+d=-2"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	A -> B [color=red]
+	A [label="A(from)
+d=0
+" color=red height=1.1 width=1.1]
+	B [label="B(to)
+d=-5
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-5"]
+	C [label="C
+d=-3"]
+	D [label="D
+d=-4"]
+	E [label="E
+d=-2"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!"]
+	B [pos="2,0!"]
+	C [pos="4,0!"]
+	D [pos="3,-2!"]
+	E [pos="6,0!"]
+	B -> C [color=red]
+	B [label="B(from)
+d=-5
+" color=red height=1.1 width=1.1]
+	C [label="C(to)
+d=-4
+" color=red height=1.1 width=1.1]
+	A [label="A
+d=0"]
+	B [label="B
+d=-5"]
+	C [label="C
+d=-4"]
+	D [label="D
+d=-4"]
+	E [label="E
+d=-2"]
+	A -> B [label=1]
+	B -> C [label=1]
+	C -> D [label=-1]
+	D -> B [label=-1]
+	C -> E [label=1]
+}
+

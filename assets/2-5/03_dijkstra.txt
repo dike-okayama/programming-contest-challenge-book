@@ -1,0 +1,814 @@
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	A [label="A
+d'=0"]
+	B [label="B
+d'=inf"]
+	C [label="C
+d'=inf"]
+	D [label="D
+d'=inf"]
+	E [label="E
+d'=inf"]
+	F [label="F
+d'=inf"]
+	G [label="G
+d'=inf"]
+	A -> B [label=2 arrowhead=none]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	label="que = {(A: cost=0)}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	A [label="A
+d=0"]
+	B [label="B
+d'=inf"]
+	C [label="C
+d'=inf"]
+	D [label="D
+d'=inf"]
+	E [label="E
+d'=inf"]
+	F [label="F
+d'=inf"]
+	G [label="G
+d'=inf"]
+	A -> B [label=2 arrowhead=none]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	A [style=bold]
+	label="que = {}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	A -> B [label=2 color=red]
+	A [label="A
+d=0"]
+	B [label="B
+d'=2"]
+	C [label="C
+d'=inf"]
+	D [label="D
+d'=inf"]
+	E [label="E
+d'=inf"]
+	F [label="F
+d'=inf"]
+	G [label="G
+d'=inf"]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	A [style=bold]
+	label="que = {(B: cost=2)}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	A -> C [label=5 color=red]
+	A [label="A
+d=0"]
+	B [label="B
+d'=2"]
+	C [label="C
+d'=5"]
+	D [label="D
+d'=inf"]
+	E [label="E
+d'=inf"]
+	F [label="F
+d'=inf"]
+	G [label="G
+d'=inf"]
+	A -> B [label=2 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	A [style=bold]
+	label="que = {(B: cost=2), (C: cost=5)}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	A [label="A
+d=0"]
+	B [label="B
+d=2"]
+	C [label="C
+d'=5"]
+	D [label="D
+d'=inf"]
+	E [label="E
+d'=inf"]
+	F [label="F
+d'=inf"]
+	G [label="G
+d'=inf"]
+	A -> B [label=2 arrowhead=none]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	A [style=bold]
+	B [style=bold]
+	label="que = {(C: cost=5)}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	B -> D [label=6 color=red]
+	A [label="A
+d=0"]
+	B [label="B
+d=2"]
+	C [label="C
+d'=5"]
+	D [label="D
+d'=8"]
+	E [label="E
+d'=inf"]
+	F [label="F
+d'=inf"]
+	G [label="G
+d'=inf"]
+	A -> B [label=2 arrowhead=none]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	A [style=bold]
+	B [style=bold]
+	label="que = {(C: cost=5), (D: cost=8)}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	B -> E [label=10 color=red]
+	A [label="A
+d=0"]
+	B [label="B
+d=2"]
+	C [label="C
+d'=5"]
+	D [label="D
+d'=8"]
+	E [label="E
+d'=12"]
+	F [label="F
+d'=inf"]
+	G [label="G
+d'=inf"]
+	A -> B [label=2 arrowhead=none]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	A [style=bold]
+	B [style=bold]
+	label="que = {(C: cost=5), (D: cost=8), (E: cost=12)}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	A [label="A
+d=0"]
+	B [label="B
+d=2"]
+	C [label="C
+d=5"]
+	D [label="D
+d'=8"]
+	E [label="E
+d'=12"]
+	F [label="F
+d'=inf"]
+	G [label="G
+d'=inf"]
+	A -> B [label=2 arrowhead=none]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	A [style=bold]
+	B [style=bold]
+	C [style=bold]
+	label="que = {(D: cost=8), (E: cost=12)}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	C -> D [label=2 color=red]
+	A [label="A
+d=0"]
+	B [label="B
+d=2"]
+	C [label="C
+d=5"]
+	D [label="D
+d'=7"]
+	E [label="E
+d'=12"]
+	F [label="F
+d'=inf"]
+	G [label="G
+d'=inf"]
+	A -> B [label=2 arrowhead=none]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	A [style=bold]
+	B [style=bold]
+	C [style=bold]
+	label="que = {(D: cost=7), (D: cost=8), (E: cost=12)}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	A [label="A
+d=0"]
+	B [label="B
+d=2"]
+	C [label="C
+d=5"]
+	D [label="D
+d=7"]
+	E [label="E
+d'=12"]
+	F [label="F
+d'=inf"]
+	G [label="G
+d'=inf"]
+	A -> B [label=2 arrowhead=none]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	A [style=bold]
+	B [style=bold]
+	C [style=bold]
+	D [style=bold]
+	label="que = {(D: cost=8), (E: cost=12)}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	D -> F [label=1 color=red]
+	A [label="A
+d=0"]
+	B [label="B
+d=2"]
+	C [label="C
+d=5"]
+	D [label="D
+d=7"]
+	E [label="E
+d'=12"]
+	F [label="F
+d'=8"]
+	G [label="G
+d'=inf"]
+	A -> B [label=2 arrowhead=none]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	A [style=bold]
+	B [style=bold]
+	C [style=bold]
+	D [style=bold]
+	label="que = {(D: cost=8), (F: cost=8), (E: cost=12)}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	A [label="A
+d=0"]
+	B [label="B
+d=2"]
+	C [label="C
+d=5"]
+	D [label="D
+d=7"]
+	E [label="E
+d'=12"]
+	F [label="F
+d'=8"]
+	G [label="G
+d'=inf"]
+	A -> B [label=2 arrowhead=none]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	A [style=bold]
+	B [style=bold]
+	C [style=bold]
+	D [style=bold]
+	label="que = {(F: cost=8), (E: cost=12)}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	A [label="A
+d=0"]
+	B [label="B
+d=2"]
+	C [label="C
+d=5"]
+	D [label="D
+d=7"]
+	E [label="E
+d'=12"]
+	F [label="F
+d=8"]
+	G [label="G
+d'=inf"]
+	A -> B [label=2 arrowhead=none]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	A [style=bold]
+	B [style=bold]
+	C [style=bold]
+	D [style=bold]
+	F [style=bold]
+	label="que = {(E: cost=12)}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	F -> E [label=3 color=red]
+	A [label="A
+d=0"]
+	B [label="B
+d=2"]
+	C [label="C
+d=5"]
+	D [label="D
+d=7"]
+	E [label="E
+d'=11"]
+	F [label="F
+d=8"]
+	G [label="G
+d'=inf"]
+	A -> B [label=2 arrowhead=none]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	A [style=bold]
+	B [style=bold]
+	C [style=bold]
+	D [style=bold]
+	F [style=bold]
+	label="que = {(E: cost=11), (E: cost=12)}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	F -> G [label=9 color=red]
+	A [label="A
+d=0"]
+	B [label="B
+d=2"]
+	C [label="C
+d=5"]
+	D [label="D
+d=7"]
+	E [label="E
+d'=11"]
+	F [label="F
+d=8"]
+	G [label="G
+d'=17"]
+	A -> B [label=2 arrowhead=none]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	A [style=bold]
+	B [style=bold]
+	C [style=bold]
+	D [style=bold]
+	F [style=bold]
+	label="que = {(E: cost=11), (E: cost=12), (G: cost=17)}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	A [label="A
+d=0"]
+	B [label="B
+d=2"]
+	C [label="C
+d=5"]
+	D [label="D
+d=7"]
+	E [label="E
+d=11"]
+	F [label="F
+d=8"]
+	G [label="G
+d'=17"]
+	A -> B [label=2 arrowhead=none]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	A [style=bold]
+	B [style=bold]
+	C [style=bold]
+	D [style=bold]
+	E [style=bold]
+	F [style=bold]
+	label="que = {(E: cost=12), (G: cost=17)}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	E -> G [label=5 color=red]
+	A [label="A
+d=0"]
+	B [label="B
+d=2"]
+	C [label="C
+d=5"]
+	D [label="D
+d=7"]
+	E [label="E
+d=11"]
+	F [label="F
+d=8"]
+	G [label="G
+d'=16"]
+	A -> B [label=2 arrowhead=none]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	A [style=bold]
+	B [style=bold]
+	C [style=bold]
+	D [style=bold]
+	E [style=bold]
+	F [style=bold]
+	label="que = {(E: cost=12), (G: cost=16), (G: cost=17)}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	A [label="A
+d=0"]
+	B [label="B
+d=2"]
+	C [label="C
+d=5"]
+	D [label="D
+d=7"]
+	E [label="E
+d=11"]
+	F [label="F
+d=8"]
+	G [label="G
+d'=16"]
+	A -> B [label=2 arrowhead=none]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	A [style=bold]
+	B [style=bold]
+	C [style=bold]
+	D [style=bold]
+	E [style=bold]
+	F [style=bold]
+	label="que = {(G: cost=16), (G: cost=17)}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	A [label="A
+d=0"]
+	B [label="B
+d=2"]
+	C [label="C
+d=5"]
+	D [label="D
+d=7"]
+	E [label="E
+d=11"]
+	F [label="F
+d=8"]
+	G [label="G
+d=16"]
+	A -> B [label=2 arrowhead=none]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	A [style=bold]
+	B [style=bold]
+	C [style=bold]
+	D [style=bold]
+	E [style=bold]
+	F [style=bold]
+	G [style=bold]
+	label="que = {(G: cost=17)}"
+}
+
+strict digraph {
+	node [height=1 shape=circle width=1]
+	rankdir=LR
+	A [pos="0,0!" style=dotted]
+	B [pos="2,0.1!" style=dotted]
+	C [pos="0,-2!" style=dotted]
+	D [pos="2.2,-2.1!" style=dotted]
+	E [pos="4,0.1!" style=dotted]
+	F [pos="4.5,-1.8!" style=dotted]
+	G [pos="6.2,-0.2!" style=dotted]
+	A [label="A
+d=0"]
+	B [label="B
+d=2"]
+	C [label="C
+d=5"]
+	D [label="D
+d=7"]
+	E [label="E
+d=11"]
+	F [label="F
+d=8"]
+	G [label="G
+d=16"]
+	A -> B [label=2 arrowhead=none]
+	A -> C [label=5 arrowhead=none]
+	B -> C [label=4 arrowhead=none]
+	B -> D [label=6 arrowhead=none]
+	B -> E [label=10 arrowhead=none]
+	C -> D [label=2 arrowhead=none]
+	D -> F [label=1 arrowhead=none]
+	E -> F [label=3 arrowhead=none]
+	E -> G [label=5 arrowhead=none]
+	F -> G [label=9 arrowhead=none]
+	A [style=bold]
+	B [style=bold]
+	C [style=bold]
+	D [style=bold]
+	E [style=bold]
+	F [style=bold]
+	G [style=bold]
+	label="que = {}"
+}
+

@@ -1,0 +1,768 @@
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	0 [label=0 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	0 [label=0 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	0 [label=0 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	0 [label=1 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	0 [label=0 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	0 [label=1 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	0 [label=2 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	0 [label=0 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	0 [label=2 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	0 [label=3 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	0 [label=0 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	0 [label=3 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	1 [label=0 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	1 [label=0 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	0 [label=0 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	1 [label=1 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	1 [label=0 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	0 [label=1 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	1 [label=0 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	0 [label=2 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	1 [label=3 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	1 [label=0 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	0 [label=3 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	2 [label=0 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	2 [label=0 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	0 [label=0 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	2 [label=1 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	2 [label=0 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	0 [label=1 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	2 [label=2 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	2 [label=0 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	0 [label=2 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	2 [label=0 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	0 [label=3 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	3 [label=0 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	3 [label=0 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	0 [label=0 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	3 [label=1 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	3 [label=0 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	0 [label=1 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	3 [label=2 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	3 [label=0 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	0 [label=2 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	3 [label=3 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	3 [label=0 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	0 [label=3 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	0 [label=0 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	0 [label=1 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	1 [label=0 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	0 [label=1 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	0 [label=1 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	1 [label=1 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	0 [label=2 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	0 [label=1 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	1 [label=2 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	0 [label=3 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	0 [label=1 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	1 [label=3 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	1 [label=0 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	1 [label=1 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	1 [label=0 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	1 [label=1 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	1 [label=1 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	1 [label=1 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	1 [label=1 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	1 [label=2 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	1 [label=3 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	1 [label=1 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	1 [label=3 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	2 [label=0 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	2 [label=1 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	1 [label=0 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	2 [label=1 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	2 [label=1 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	1 [label=1 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	2 [label=2 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	2 [label=1 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	1 [label=2 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	2 [label=1 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	1 [label=3 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	3 [label=0 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	3 [label=1 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	1 [label=0 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	3 [label=1 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	3 [label=1 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	1 [label=1 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	3 [label=2 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	3 [label=1 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	1 [label=2 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	3 [label=3 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	3 [label=1 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	1 [label=3 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	0 [label=0 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	0 [label=2 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	2 [label=0 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	0 [label=1 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	0 [label=2 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	2 [label=1 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	0 [label=2 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	0 [label=2 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	2 [label=2 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	0 [label=3 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	0 [label=2 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	2 [label=3 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	1 [label=0 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	1 [label=2 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	2 [label=0 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	1 [label=1 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	1 [label=2 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	2 [label=1 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	1 [label=2 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	2 [label=2 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	1 [label=3 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	1 [label=2 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	2 [label=3 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	2 [label=0 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	2 [label=2 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	2 [label=0 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	2 [label=1 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	2 [label=2 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	2 [label=1 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	2 [label=2 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	2 [label=2 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	2 [label=2 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	2 [label=2 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	2 [label=3 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	3 [label=0 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	3 [label=2 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	2 [label=0 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	3 [label=1 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	3 [label=2 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	2 [label=1 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	3 [label=2 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	3 [label=2 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	2 [label=2 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	3 [label=3 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	3 [label=2 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	2 [label=3 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	0 [label=0 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	0 [label=3 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	3 [label=0 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	0 [label=1 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	0 [label=3 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	3 [label=1 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	0 [label=2 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	0 [label=3 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	3 [label=2 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	0 [label=3 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	0 [label=3 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	3 [label=3 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	1 [label=0 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	1 [label=3 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	3 [label=0 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	1 [label=1 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	1 [label=3 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	3 [label=1 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	1 [label=3 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	3 [label=2 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	1 [label=3 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	1 [label=3 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	3 [label=3 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	2 [label=0 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	2 [label=3 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	3 [label=0 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	2 [label=1 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	2 [label=3 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	3 [label=1 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	2 [label=2 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	2 [label=3 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	3 [label=2 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	2 [label=3 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	3 [label=3 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	3 [label=0 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	3 [label=3 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	3 [label=0 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	3 [label=1 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	3 [label=3 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	3 [label=1 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	3 [label=2 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	3 [label=3 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	3 [label=2 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+
+digraph {
+	0 [label=1 arrowhead=none]
+	0 [label=2 arrowhead=none]
+	0 [label=3 arrowhead=none]
+	1 [label=2 arrowhead=none]
+	1 [label=3 arrowhead=none]
+	2 [label=3 arrowhead=none]
+	3 [label=3 arrowhead=open color="rgba(234, 95, 42, 0.8)"]
+	3 [label=3 arrowhead=open color="rgba(81, 173, 112, 0.8)"]
+	3 [label=3 arrowhead=open color="rgba(34, 84, 240, 0.8)"]
+}
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>牛の方向反転</title>
+        <meta charset="UTF-8" />
+        <style>
+            /* 牛のスタイル */
+            .cow {
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                /* background-color: brown; */
+                border: 1px solid black;
+                border-radius: 50%;
+                text-align: center;
+                font-size: 24px;
+                font-weight: bold;
+                color: white;
+                line-height: 50px;
+            }
+
+            /* 左向きの牛のスタイル */
+            .cow-left::before {
+                content: "←";
+            }
+            .cow-left {
+                background-color: green;
+            }
+
+            /* 右向きの牛のスタイル */
+            .cow-right::before {
+                content: "→";
+            }
+            .cow-right {
+                background-color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Face The Right Way</h1>
+
+        <!-- 牛の配列 -->
+        <div id="cows"></div>
+
+        <!-- kの入力欄 -->
+        <label for="k">k:</label>
+        <input type="number" id="k" value="3" />
+
+        <script>
+            var cowCount = 10; // 牛の数を指定する
+            var cows = []; // 牛の方向を表す配列
+            for (var i = 0; i < cowCount; i++) {
+                cows.push(Math.round(Math.random())); // 0 or 1
+            }
+
+            // 牛の配列を生成する
+            var cowDivs = document.getElementById("cows");
+            for (var i = 0; i < cowCount; i++) {
+                var cowDiv = document.createElement("div");
+                cowDiv.classList.add("cow");
+                if (cows[i] == 0) {
+                    cowDiv.classList.add("cow-left");
+                } else {
+                    cowDiv.classList.add("cow-right");
+                }
+                cowDiv.addEventListener("click", function () {
+                    reverseCows(this); // クリックされた牛を反転する
+                });
+                cowDivs.appendChild(cowDiv);
+            }
+
+            // 牛の方向を反転する関数
+            function reverseCows(clickedCow) {
+                var k = Number(document.getElementById("k").value);
+                var startIndex = Array.prototype.indexOf.call(
+                    cowDivs.children,
+                    clickedCow
+                );
+                if (startIndex + k > cowCount) {
+                    return;
+                }
+                for (
+                    var i = startIndex;
+                    i <= Math.min(startIndex + k - 1, cowCount - 1);
+                    i++
+                ) {
+                    if (i >= startIndex + k) {
+                        break; // 自分より右にk個以上存在する牛は反転しない
+                    }
+                    cows[i] = 1 - cows[i]; // 0と1を反転する
+                    var cowDiv = cowDivs.children[i];
+                    cowDiv.classList.toggle("cow-left");
+                    cowDiv.classList.toggle("cow-right");
+                }
+            }
+        </script>
+    </body>
+</html>

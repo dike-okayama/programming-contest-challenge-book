@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>2D座標圧縮</title>
+        <style>
+            canvas {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="myCanvas" width="400" height="400"></canvas>
+        <br />
+        <button onclick="compress()">座標圧縮</button>
+        <br /><br />
+        <p id="original"></p>
+        <p id="compressed"></p>
+        <script>
+            // ページが読み込まれたときに実行される関数
+            window.onload = function () {
+                // Canvas要素を取得
+                var canvas = document.getElementById("myCanvas");
+                var ctx = canvas.getContext("2d");
+
+                // 座標を定義して、ランダムな位置に円を描画する
+                var points = [];
+                for (var i = 0; i < 10; i++) {
+                    var x = Math.floor(Math.random() * 400);
+                    var y = Math.floor(Math.random() * 400);
+                    points.push([x, y]);
+                    ctx.beginPath();
+                    ctx.arc(x, y, 5, 0, 2 * Math.PI);
+                    ctx.fill();
+                }
+
+                // 座標を表示する
+                var originalText = "元の座標: ";
+                for (var i = 0; i < points.length; i++) {
+                    originalText +=
+                        "(" + points[i][0] + ", " + points[i][1] + ") ";
+                }
+                document.getElementById("original").innerHTML = originalText;
+            };
+
+            // ボタンがクリックされたときに実行される関数
+            function compress() {
+                // 圧縮前の座標を取得
+                var canvas = document.getElementById("myCanvas");
+                var ctx = canvas.getContext("2d");
+                var originalPoints = [];
+                var elements = document.getElementsByTagName("circle");
+                for (var i = 0; i < elements.length; i++) {
+                    var x = parseInt(elements[i].getAttribute("cx"));
+                    var y = parseInt(elements[i].getAttribute("cy"));
+                    originalPoints.push([x, y]);
+                }
+
+                // 座標圧縮を実行
+                var compressedResult = compress2D(originalPoints);
+                var compressedPoints = compressedResult[0];
+                var xValues = compressedResult[1];
+                var yValues = compressedResult[2];
+                console.log(compressedResult);
+                // 圧縮後の座標を表示
+                var compressedText = "圧縮された座標: ";
+                for (var i = 0; i < compressedPoints.length; i++) {
+                    var x = xValues[compressedPoints[i][0]];
+                    var y = yValues[compressedPoints[i][1]];
+                    compressedText += "(" + x + ", " + y + ") ";
+                    ctx.beginPath();
+                    ctx.arc(x, y, 5, 0, 2 * Math.PI);
+                    ctx.fill();
+                }
+                document.getElementById("compressed").innerHTML =
+                    compressedText;
+            }
+
+            // 2D座標圧縮を実行する関数
+            function compress2D(points) {
+                // x座標とy座標の値を分けて配列に格納する
+                var xValues = [];
+                var yValues = [];
+                for (var i = 0; i < points.length; i++) {
+                    xValues.push(points[i][0]);
+                    yValues.push(points[i][1]);
+                }
+
+                // x座標とy座標をそれぞれ圧縮する
+                var compressedX = compress1d(xValues);
+                var compressedY = compress1d(yValues);
+
+                // 圧縮された座標を生成する
+                var compressedPoints = [];
+                for (var i = 0; i < points.length; i++) {
+                    var xIndex = compressedX[points[i][0]];
+                    var yIndex = compressedY[points[i][1]];
+                    compressedPoints.push([xIndex, yIndex]);
+                }
+
+                return [compressedPoints, compressedX, compressedY];
+            }
+
+            // 1D座標圧縮と同じ関数を使用して、2D座標圧縮のための辞書を生成する
+            function compress1d(array) {
+                var dict = {};
+                var sortedArray = Array.from(new Set(array)).sort();
+                for (var i = 0; i < sortedArray.length; i++) {
+                    dict[sortedArray[i]] = i;
+                }
+                return dict;
+            }
+        </script>
+    </body>
+</html>

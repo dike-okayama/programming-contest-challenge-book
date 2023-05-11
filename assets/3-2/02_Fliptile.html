@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fliptile</title>
+        <meta charset="UTF-8" />
+        <style>
+            /* マスのスタイル */
+            .cell {
+                display: inline-block;
+                width: 50px;
+                height: 50px;
+                border: 1px solid black;
+                border-radius: 50%; /* 丸くする */
+            }
+
+            /* 黒いマスのスタイル */
+            .black {
+                background-color: black;
+            }
+
+            /* 黄色いマスのスタイル */
+            .yellow {
+                background-color: #ffff00;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Fliptile</h1>
+
+        <!-- マスの配列 -->
+        <div id="board"></div>
+
+        <script>
+            var size = 4; // マスの数を指定する
+
+            // マスの配列を生成する
+            var board = document.getElementById("board");
+            for (var row = 0; row < size; row++) {
+                var rowDiv = document.createElement("div");
+                board.appendChild(rowDiv);
+                for (var col = 0; col < size; col++) {
+                    var cellDiv = document.createElement("div");
+                    cellDiv.classList.add("cell");
+                    if (Math.random() > 0.5) {
+                        cellDiv.classList.add("black");
+                    } else {
+                        cellDiv.classList.add("yellow");
+                    }
+                    cellDiv.setAttribute(
+                        "onclick",
+                        "toggleColor(" + row + "," + col + ")"
+                    );
+                    rowDiv.appendChild(cellDiv);
+                }
+            }
+
+            // マスの色を反転する関数
+            function toggleColor(row, col) {
+                var cells = document.getElementsByClassName("cell");
+                var cellIndex = size * row + col;
+                var targetCell = cells[cellIndex];
+                targetCell.classList.toggle("black");
+                targetCell.classList.toggle("yellow");
+
+                if (row > 0) {
+                    var aboveIndex = size * (row - 1) + col;
+                    var aboveCell = cells[aboveIndex];
+                    aboveCell.classList.toggle("black");
+                    aboveCell.classList.toggle("yellow");
+                }
+                if (row < size - 1) {
+                    var belowIndex = size * (row + 1) + col;
+                    var belowCell = cells[belowIndex];
+                    belowCell.classList.toggle("black");
+                    belowCell.classList.toggle("yellow");
+                }
+                if (col > 0) {
+                    var leftIndex = size * row + (col - 1);
+                    var leftCell = cells[leftIndex];
+                    leftCell.classList.toggle("black");
+                    leftCell.classList.toggle("yellow");
+                }
+                if (col < size - 1) {
+                    var rightIndex = size * row + (col + 1);
+                    var rightCell = cells[rightIndex];
+                    rightCell.classList.toggle("black");
+                    rightCell.classList.toggle("yellow");
+                }
+            }
+        </script>
+    </body>
+</html>
